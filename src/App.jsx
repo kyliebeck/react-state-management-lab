@@ -147,7 +147,7 @@ const App = () => {
       <h1>Available Zombie Fighters</h1>
       <h2>My currency: {money}</h2>
       <ul>
-        {zombieFighters.map((zombieFighter, idx) => (
+        {zombieFighters.map((zombieFighter) => (
           <li key={zombieFighter.id} >  {zombieFighter.name}
             <p>Price: {zombieFighter.price}</p>
             <p>Strength: {zombieFighter.strength}</p>
